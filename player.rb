@@ -10,10 +10,3 @@ class Player
     @number_of_lives -= 1
   end
 end
-
-
-#TEST
-# player_1 = Player.new('Player 1')
-# p player_1
-# player_1.lose_a_life
-# p player_1

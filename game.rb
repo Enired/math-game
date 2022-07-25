@@ -37,8 +37,4 @@ class Game
     puts "----- GAME OVER -----"
     puts "Good Bye!"
   end
-      
-
-  
-
 end

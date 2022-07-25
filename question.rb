@@ -18,11 +18,3 @@ class Question
     "What is #{@number_one} plus #{@number_two}"
   end
 end
-
-
-
-
-
-#Test
-# p something = Question.new
-# something.show_question
