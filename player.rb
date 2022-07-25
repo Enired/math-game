@@ -1,5 +1,5 @@
 class Player
-  attr_reader = :number_of_lives, :name
+  attr_reader :number_of_lives, :name
   NUMBER_OF_LIVES = 3
   def initialize (name)
     @name = name
@@ -13,7 +13,7 @@ end
 
 
 #TEST
-player_1 = Player.new('Player 1')
-p player_1
-player_1.lose_a_life
-p player_1
+# player_1 = Player.new('Player 1')
+# p player_1
+# player_1.lose_a_life
+# p player_1
